@@ -99,7 +99,7 @@
             background-color: #fff;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: 90% 90%;
+            background-size:cover;
             border:1px solid #AFC83D; margin:-1px;
         }
         #welcome{
@@ -199,8 +199,8 @@
             loop=false;
             document.getElementById("out").innerHTML="游戏结束";
             if(v_all_blocks==0){
-                shareTitle="我找到30块寿司用时"+v_time+"秒";
-                document.getElementById("out").innerHTML="恭喜：耗时<b>"+v_time+"</b>秒";
+                shareTitle="我找到30只猴子用时"+v_time+"秒";
+                document.getElementById("out").innerHTML="<img width='100%' src='../../res/share.png'>恭喜：耗时<b>"+v_time+"</b>秒";
             }
             document.getElementById("gameover").style.display="block";
         }
@@ -370,6 +370,7 @@
             <img src="res/14.png">
             <img src="res/15.png">
             <img src="res/monkey.png">
+            <img src="../../res/share.png">
         </div>
     </body>
 </html>
