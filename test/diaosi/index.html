@@ -144,8 +144,8 @@
         .buttons{
             position: absolute;
             width: 100%;
-            top: 70%;
-            height: 50%;
+            top: 30%;
+            height: 70%;
             
             bottom: 0%;
             left: 0px;
@@ -181,6 +181,10 @@
         #outmsg{
             font-size: 20px;
             color: #fff;
+            width: 95%;
+            margin: 0 auto;
+            text-align: left;
+            font-size: 14px;
         }
         #menuButton{
             display: none;
@@ -238,8 +242,8 @@
                     
                 }
                 shareTitle="我的屌丝指数是"+v+"我是"+tmp_jg;
-                document.getElementById("out").innerHTML="<img width='90%' style='float:right;' src='../../res/share.png'>";
-                document.getElementById("outmsg").innerHTML="<h2>"+tmp_jg+"</h2>"+"<p>"+tmp_txt+"</p>";
+                document.getElementById("out").innerHTML="<h2>"+tmp_jg+"</h2>";
+                document.getElementById("outmsg").innerHTML="<p>"+tmp_txt+"</p>";
             }
             document.getElementById("gameover").style.display="block";
         }
@@ -424,6 +428,7 @@
             <div class="msgPan">
                 <div id="msg">
                     <p><span id="out"></span></p>
+                    <p>右上角分享到朋友圈</p>
                 </div>
             </div>
             <div class="buttons">
