@@ -161,6 +161,7 @@
             background: url(res/logo.jpg);
             background-position: center;
             background-repeat: no-repeat;
+            background-size: cover;
             border-radius: 100%;
             border: solid rgba(255,255,255,.8) 2px;
         }
@@ -173,6 +174,7 @@
             background: url(res/logo.jpg);
             background-position: center;
             background-repeat: no-repeat;
+            background-size: cover;
             border-radius: 100%;
             border: solid rgba(255,255,255,.8) 2px;
         }
@@ -229,7 +231,8 @@
                     
                 }
                 shareTitle="我的屌丝指数是"+v+"我是"+tmp_jg;
-                document.getElementById("out").innerHTML="<img width='50%' style='float:right;' src='../../res/share.png'><p style='width:100%'>你的屌丝指数为：<b>"+v+"</b>你是"+tmp_jg+"</p>";
+                document.getElementById("out").innerHTML="<img width='90%' style='float:right;' src='../../res/share.png'>";
+                document.getElementById("outmsg").innerHTML=tmp_jg;
             }
             document.getElementById("gameover").style.display="block";
         }
@@ -272,7 +275,7 @@
 
             document.getElementById("menuButton").addEventListener("click",e_tap_menu,false);
             document.getElementById("start").addEventListener("click",_restart,false);
-            document.getElementById("restart").addEventListener("click",_restart,false);
+            
         }
         function init(){
             v=0;
@@ -418,7 +421,7 @@
                 </div>
             </div>
             <div class="buttons">
-                <div id="restart"></div>
+                <div id="outmsg"></div>
             </div>
         </div>
         <div style="display:none">
