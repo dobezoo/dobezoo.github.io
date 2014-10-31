@@ -96,11 +96,18 @@
             background: #ccc;
             float: left;
             clear: none;
-            background-color: #fff;
+            background-color: #2669b4;
             background-position: center;
             background-repeat: no-repeat;
             background-size:cover;
             border:1px solid #AFC83D; margin:-1px;
+            position: relative;
+            color: #fff;
+            
+        }
+        .block:first-child{
+            font-weight: 900;
+            
         }
         #welcome{
             position: fixed;
@@ -269,10 +276,23 @@
                     
                     for(i=0;i<li.length;i++){
                         var e=document.createElement("div");
+                        var span=document.createElement("span");
+                        var table=document.createElement("table");
+                        table.width="100%";
+                        table.height="100%";
+                        table.style.height="100%";
+                        var tr=document.createElement("tr");
+                        var td=document.createElement("td");
+                        td.setAttribute("align","center");
+                        tr.appendChild(td);
+                        table.appendChild(tr);
+                        td.innerHTML=li[i];
+                        td.style.textAlign="left";
                         e.setAttribute("class","block");
-                        e.innerHTML=li[i];
-                        e.setAttribute("v",i);
-                        e.addEventListener("click",_x,false);
+                        
+                        e.appendChild(table);
+                        td.setAttribute("v",i);
+                        td.addEventListener("click",_x,false);
                         document.getElementById("canvas").appendChild(e);
                         
                     }
@@ -406,9 +426,33 @@
             </div>
         </div>
         <div id="canvas">
-            <div class="block">你的性别</div>
-            <div class="block" onclick="girl()">女</div>
-            <div class="block" onclick="boy()">男</div>
+            <div class="block">
+                <table width="100%" height="100%">
+                    <tr>
+                        <td align="center">
+                            你的性别
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="block">
+                <table width="100%" height="100%">
+                    <tr>
+                        <td align="center" onclick="girl()">
+                            女
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="block">
+                <table width="100%" height="100%">
+                    <tr>
+                        <td align="center" onclick="boy()">
+                            男
+                        </td>
+                    </tr>
+                </table>
+            </div>
             <div class="block"></div>
             <div class="block"></div>
         </div>
