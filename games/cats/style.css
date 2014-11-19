@@ -36,24 +36,11 @@ body{
     overflow: hidden;
     display: none;
 }
-@-webkit-keyframes welcome{
-    0%{
-        -webkit-transform:rotate(-10deg);
-    }
-    50%{
-        -webkit-transform:rotate(10deg);
-    }
-    100%{
-        -webkit-transform:rotate(-10deg);
-    }
-}
 #welcome{
     background: url(res/logo.png);
     background-size: 80%;
     background-position: center 20%;
     background-repeat: no-repeat;
-    
-    -webkit-animation: welcome 2s ease 100;
 }
 #game_over_image,#you_win_image{
     position: absolute;
@@ -73,13 +60,13 @@ body{
         left: 10px;
         right: 10px;
     }
-    80%{
-        top: 55%;
-        left: 10px;
-        right: 10px;
+    90%{
+        top: 85%;
+        left: 50px;
+        right: 50px;
     }
     100%{
-        top: 55%;
+        top: 80%;
         left: 50px;
         right: 50px;
     }
@@ -120,7 +107,7 @@ body{
     font-weight: 900;
     background: rgba(235,102,14,.9);
     color: #fff;
-    margin: 10px 0px 0px 10px;
+    margin: 20px 0px 0px 10px;
     float: left;
 }
 .name:nth-child(2n){
@@ -134,7 +121,7 @@ body{
     font-weight: 900;
     background: rgba(235,102,14,.9);
     color: #fff;
-    margin: 10px 10px 0px 0px;
+    margin: 20px 10px 0px 0px;
     float: right;
 }
 #start_button{
@@ -144,14 +131,14 @@ body{
     line-height: 40px;
     text-align: center;
     background: #ccc;
-    top: 55%;
+    top: 80%;
     left: 50px;
     right: 50px;
     border-radius: 4px;
     font-weight: 900;
     background: rgba(235,102,14,.9);
     color: #fff;
-    -webkit-animation: start_button 2s ease 1;
+    -webkit-animation: start_button 2s ease-out 1;
 }
 #restart_button{
     position: absolute;
