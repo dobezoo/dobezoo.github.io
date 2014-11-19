@@ -38,7 +38,7 @@ body{
 }
 #welcome{
     background: url(res/logo.png);
-    background-size: 80%;
+    background-size: 100%;
     background-position: center 20%;
     background-repeat: no-repeat;
 }
