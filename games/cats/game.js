@@ -204,7 +204,7 @@ function __data_init(){
           {"face":"日本短尾猫","names":[{"name":"日本短尾猫","value":1},{"name":"土耳其梵猫","value":0},{"name":"英国短毛猫","value":0},{"name":"东方猫","value":0}]},
           {"face":"斯芬克斯猫","names":[{"name":"斯芬克斯猫","value":1},{"name":"英国短毛猫","value":0},{"name":"缅因猫","value":0},{"name":"哈瓦那棕猫","value":0}]},
           {"face":"苏格兰折耳猫","names":[{"name":"苏格兰折耳猫","value":1},{"name":"索马里猫","value":0},{"name":"俄罗斯蓝猫","value":0},{"name":"奥西猫","value":0}]},
-          {"face":"土耳其梵猫","names":[{"name":"土耳其梵猫","value":1},{"name":"孟买猫","value":0},{"name":"波米拉猫","value":0},{"name":"土耳其梵猫","value":0}]},
+          {"face":"土耳其梵猫","names":[{"name":"土耳其梵猫","value":1},{"name":"孟买猫","value":0},{"name":"波米拉猫","value":0},{"name":"中国狸花猫","value":0}]},
           {"face":"索马里猫","names":[{"name":"索马里猫","value":1},{"name":"日本短尾猫","value":0},{"name":"奥西猫","value":0},{"name":"美国短尾猫","value":0}]},
           {"face":"西伯利亚森林猫","names":[{"name":"西伯利亚森林猫","value":1},{"name":"哈瓦那棕猫","value":0},{"name":"阿比西尼亚猫","value":0},{"name":"埃及猫","value":0}]},
           {"face":"新加坡猫","names":[{"name":"新加坡猫","value":1},{"name":"索马里猫","value":0},{"name":"缅因猫","value":0},{"name":"阿比西尼亚猫","value":0}]},
