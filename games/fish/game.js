@@ -9,7 +9,7 @@ step=0;
 function __game_start(){
     time=0;
     v=-1;
-    seatop=0;
+    seatop=50;
     step=0.1;
     loop=true;
 }
@@ -31,13 +31,14 @@ function __next(){
 function game_bind(){
     document.querySelector("#canvas_page").addEventListener("touchstart",function(){
         if(loop){
-            seatop-=10;
+            seatop-=5;
             document.querySelector("#game_sea").style.top=seatop+"%";
             if(seatop<0){
                __game_win();
             }
         }
     });
+    __init_wx();
 }
 function gamelooping(){
     if(loop){
