@@ -157,7 +157,7 @@ function ___gameover(){
     document.querySelector("#you_win_image").style.display="none";
     document.querySelector("#game_over_image").style.display="none";
     if(num==all){
-        shareTitle="你认识多少种鸟！";
+        shareTitle="我认出了所有的鸟！";
         document.querySelector("#you_win_image").style.display="block";
     }else{
         document.querySelector("#game_over_image").style.display="block";
