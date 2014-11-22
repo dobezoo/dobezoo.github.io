@@ -88,6 +88,7 @@ body{
     top: 0px;
     left: -50px;
     box-shadow: 0 0 50px 10px rgba(255,255,255,0.5);
+    overflow: hidden;
 }
 #names{
     position: absolute;
@@ -195,12 +196,6 @@ body{
     font-size: 18px;
     font-weight: 900;
 }
-#ufopan{
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    right: 0px;
-}
 @-webkit-keyframes ufo_come{
     0%{
         left:-800px;
@@ -234,27 +229,6 @@ body{
     100%{
         left:1440px;
     }
-}
-#ufo{
-    background: url(res/ufo.png);
-    position: absolute;
-    top: 10px;
-    left: -140px;
-    width: 280px;
-    height: 94px;
-    background-size: 100% 100%;
-    -webkit-transform:rotate(0deg);
-    -webkit-animation: ufo_come 0.5s ease 0s 1;
-}
-#ufo #com{
-    position: absolute;
-    top: 40px;
-    left: 0px;
-    right: 0px;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 900;
-    color: #000;
 }
 #bar{
     position: absolute;
