@@ -1,6 +1,6 @@
 [
-    {"title":"鲨鱼吃猩猩","icon":"shark.jpg","link":"sharkeatmonkey"},
-    {"title":"一只猫和两只狗的爱情","icon":"cat.jpg","link":"002"},
-    {"title":"蜘蛛是怎么吃掉狮子的","icon":"spider.jpg","link":"003"},
-    {"title":"谁强暴了企鹅","icon":"qie.jpg","link":"004"}
+    {"title":"鲨鱼吃猩猩","icon":"shark.png","link":"sharkeatmonkey"},
+    {"title":"一只猫和两只狗的爱情","icon":"cat.png","link":"002"},
+    {"title":"蜘蛛是怎么吃掉狮子的","icon":"spider.png","link":"003"},
+    {"title":"谁强暴了企鹅","icon":"qie.png","link":"004"}
 ]
